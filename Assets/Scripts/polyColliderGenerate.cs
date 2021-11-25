@@ -12,7 +12,7 @@ public class polyColliderGenerate : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void generate()
     {
         if (collider != null)
             Destroy(collider);
